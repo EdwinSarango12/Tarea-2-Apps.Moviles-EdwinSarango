@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tarea 2 - Apps. Móviles
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cámara</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+
+  <div class="camera-container">
+    <ion-img *ngIf="photo" [src]="photo" class="photo-preview"></ion-img>
+    <div *ngIf="!photo" class="no-photo">
+      <ion-icon name="camera" size="large"></ion-icon>
+      <h2>Aplicación de icono personalizado y splash screen</h2>
+      <p><strong>Descripción:</strong> Esta es una aplicación creada usando un icono personalizado y un splash screen personalizado con duración de 3 segundos.</p>
+      <ul class="features-list">
+        <li>✓ Implementación de un icono personalizado para la aplicación</li>
+        <li>✓ Utilización de un splash screen personalizado con duración de 3 segundos</li>
+        <li>✓ Integración con Capacitor Camera API</li>
+        <li>✓ Interfaz moderna con Ionic Components</li>
+      </ul>
+      <p class="author"><em>Desarrollado por Edwin Sarango</em></p>
+    </div>
+  </div>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="center">
+    <ion-fab-button (click)="takePicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
