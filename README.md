@@ -8,6 +8,8 @@ Aplicación móvil desarrollada con **Ionic Framework** y **Angular** que implem
 **Curso:** Aplicaciones Móviles  
 **Tarea:** Tarea 2 - Implementación de Icono y Splash Screen Personalizados
 
+![screen](https://github.com/user-attachments/assets/fef32b2c-1f1b-4d63-9183-2c4be8640171)
+
 ---
 
 ##  Características Principales
@@ -89,6 +91,7 @@ async takePicture() {
   }
 }
 ```
+![camara](https://github.com/user-attachments/assets/814287a7-b0e9-49a7-8455-5d2999439d27)
 
 ### Permisos Necesarios
 
@@ -136,6 +139,7 @@ async showsplash() {
   });
 }
 ```
+![icono](https://github.com/user-attachments/assets/1c3b136e-ea23-4866-ab8b-47602018bb31)
 
 ### Características
 - **Duración:** 3 segundos
@@ -214,6 +218,7 @@ const config: CapacitorConfig = {
 
 export default config;
 ```
+<img width="459" height="593" alt="Captura de pantalla 2025-10-18 205951" src="https://github.com/user-attachments/assets/f8acd83d-4b2d-42b3-b48d-e3de39d15a0b" />
 
 ---
 
