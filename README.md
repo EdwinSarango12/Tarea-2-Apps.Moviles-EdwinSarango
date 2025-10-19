@@ -244,8 +244,3 @@ npx cap open android
 
 ---
 
-## Licencia
-
-Este proyecto fue desarrollado con fines educativos para el curso de Aplicaciones Móviles.
-
----
